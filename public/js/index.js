@@ -1,6 +1,4 @@
-document.getElementById("g05button").onclick = function () {
-    location.href = "./discover.html";
-};
+
 
 document.getElementById("row3btn1").onclick = function () {
     location.href = "./partypacks.html";
