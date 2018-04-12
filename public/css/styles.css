@@ -11,15 +11,37 @@ html, body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    height: 70px;
+    height: 95px;
     z-index: 9999999;
 }
 
 
+
+.contactrow-media {
+    display: none;
+}
+
+.row3-media {
+    display: none;
+}
+
+.row4-media {
+    display: none;
+}
+
+.parallax-media {
+    display: none;
+}
+
+.navmedia {
+    display:none;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
-  
+    font-size: 24px;
+   
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
@@ -28,7 +50,6 @@ html, body {
     margin-top: 50px;
    
 }
-
 
 .container2 {
     width: 100%;
@@ -48,11 +69,13 @@ html, body {
     background: url("../images/party01.jpeg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%; 
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    height: 650px;
+   
     width: 100%;
 }
 
@@ -88,7 +111,7 @@ html, body {
 }
 
 #heading1 {
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
     margin-top:50px;
     margin-bottom: 0px;
     text-align: center;
@@ -96,14 +119,14 @@ html, body {
 
 
 #text1 {
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
     margin-top:20px;
     margin-bottom: 0px;
     text-align: center;
 }
 
 #subheading {
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
     margin-top: 20px;
     font-size: 15px;
     font-style: italic;
@@ -424,7 +447,7 @@ html, body {
 .group09  {
    
     margin-top: 75px;
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
     font-size: 18px;
     height:400px;
     
@@ -444,20 +467,20 @@ html, body {
 
 #heading05 {
     text-align: center;
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
 }
 
 #g05txt2 {
     margin-top:40px;
     text-align: center;
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
 
 }
 
 #g05button {
     margin-top:40px;
     margin-left:55px;
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
 }
 
 #ppModal {
@@ -492,7 +515,7 @@ html, body {
 
 .group11 {
     margin-top: 50px;
-    font-family: "crafty girls";
+    font-family: 'Niconne';
     font-size: 10px;
 }
 
@@ -501,6 +524,44 @@ html, body {
 }
 
 
+
+.btncontainer1 img {
+    width:33.3vw;
+    height:300px;
+    margin:5px;
+}
+
+.btncontainer2 img {
+    width:33.3vw;
+    height:300px;
+    margin:5px;
+}
+
+
+.btncontainer3 img {
+    width:33.3vw;
+    height:300px;
+    margin:5px;
+}
+
+.btncontainer4 img {
+    width:33.3vw;
+    height:300px;
+    margin:5px;
+}
+
+.btncontainer5 img {
+    width:33.3vw;
+    height:300px;
+    margin:5px;
+}
+
+.btncontainer6 img {
+    width:33.3vw;
+    height:300px;
+    margin:5px;
+}
+
 .btncontainer1 {
     position: relative;
     width: 100%;
@@ -508,20 +569,6 @@ html, body {
     float: left;
 }
 
-.btncontainer3 img {
-    width:400px ;
-    height:300px;
-}
-
-.btncontainer2 img {
-    width:400px ;
-    height:300px;
-}
-
-.btncontainer1 img {
-    width:400px ;
-    height:300px;
-}
 
 .btncontainer1 .row3btn1 {
     position: absolute;
@@ -532,7 +579,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -542,37 +589,6 @@ html, body {
 }
 
 .btncontainer1 .row3btn1:hover {
-    background-color: black;
-}
-
-
-.btncontainer3 {
-    position: relative;
-    width: 100%;
-    max-width: 425px;
-    float: left;
-}
-
-
-
-.btncontainer3 .row3btn3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 24px;
-    font-family: 'Crafty Girls';
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.btncontainer3 .row3btn3:hover {
     background-color: black;
 }
 
@@ -594,7 +610,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Crafty Girls';
+    font-family: 'Niconne';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -605,3 +621,256 @@ html, body {
 .btncontainer2 .row3btn2:hover {
     background-color: black;
 }
+
+.btncontainer3 {
+    position: relative;
+    width: 100%;
+    max-width: 425px;
+    float: left;
+}
+
+.btncontainer3 .row3btn3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 24px;
+    font-family: 'Niconne';
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btncontainer3 .row3btn3:hover {
+    background-color: black;
+}
+
+
+.btncontainer4 {
+    position: relative;
+    width: 100%;
+    max-width: 425px;
+    float: left;
+}
+
+.btncontainer4 .row4btn4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 24px;
+    font-family: 'Niconne';
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btncontainer4 .row4btn4:hover {
+    background-color: black;
+}
+
+
+.btncontainer5 {
+    position: relative;
+    width: 100%;
+    max-width: 425px;
+    float: left;
+}
+
+.btncontainer5 .row4btn5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 24px;
+    font-family: 'Niconne';
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btncontainer5 .row4btn5:hover {
+    background-color: black;
+}
+
+
+.btncontainer6 {
+    position: relative;
+    width: 100%;
+    max-width: 425px;
+    float: left;
+}
+
+.btncontainer6 .row4btn6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 24px;
+    font-family: 'Niconne';
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btncontainer6 .row4btn6:hover {
+    background-color: black;
+}
+
+.group5A img {
+    margin-top: 5px;
+    width: 50%;
+    height:auto;
+}
+
+
+/* Width at 960px and below */
+@media screen and (max-width: 1024px) {
+   
+   
+    
+
+    .parallax {
+        display: none;
+    }
+
+    .row1 {
+        display: none;
+    }
+
+    .row2 {
+        display: none;
+    }
+
+    .row3 {
+        display: none;
+    }
+
+    .row4 {
+        display: none;
+    }
+
+    .contactrow {
+        display:none;
+    }
+
+    .contactrow-media {
+        display:block;
+        float:left;
+    }
+
+    .row3-media {
+        display:block;
+    }
+
+    
+    .row4-media {
+        display:block;
+    }
+
+    .parallax-media {
+        display:block;
+    }
+    
+
+    .btncontainer1 img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+
+    .btncontainer2 img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+
+    .btncontainer3 img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+
+    .btncontainer4 img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+
+    .btncontainer5 img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+
+    .btncontainer6 img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+  
+    
+
+    .parallax-media img {
+        margin-top: 5px;
+        width: 100%;
+        height:auto;
+    }
+
+
+.group10 {
+    display : none;
+}
+
+
+.parallax-media {
+    background: url("../images/party01.jpeg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: 650px;
+    width: 100%;
+}
+
+.navregular {
+    display:none;
+}
+
+.navmedia {
+    display: block;
+}
+
+.my-navbar {
+    display:none;
+}
+
+.home {
+    margin-left:300px;
+}
+
+  }
+
+  
