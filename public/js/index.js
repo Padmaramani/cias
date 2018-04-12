@@ -1,5 +1,3 @@
-
-
 document.getElementById("row3btn1").onclick = function () {
     location.href = "./partypacks.html";
 };
