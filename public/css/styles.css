@@ -566,7 +566,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 425px;
-    float: left;
+
 }
 
 
@@ -597,7 +597,6 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 425px;
-    float: left;
 }
 
 
@@ -625,8 +624,7 @@ html, body {
 .btncontainer3 {
     position: relative;
     width: 100%;
-    max-width: 425px;
-    float: left;
+    max-width: 425px
 }
 
 .btncontainer3 .row3btn3 {
@@ -655,7 +653,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 425px;
-    float: left;
+
 }
 
 .btncontainer4 .row4btn4 {
@@ -684,7 +682,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 425px;
-    float: left;
+    
 }
 
 .btncontainer5 .row4btn5 {
@@ -713,7 +711,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 425px;
-    float: left;
+    
 }
 
 .btncontainer6 .row4btn6 {
@@ -745,7 +743,7 @@ html, body {
 
 
 /* Width at 960px and below */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
    
    
     
