@@ -111,7 +111,7 @@ html, body {
 }
 
 #heading1 {
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     margin-top:50px;
     margin-bottom: 0px;
     text-align: center;
@@ -119,14 +119,14 @@ html, body {
 
 
 #text1 {
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     margin-top:20px;
     margin-bottom: 0px;
     text-align: center;
 }
 
 #subheading {
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     margin-top: 20px;
     font-size: 15px;
     font-style: italic;
@@ -447,7 +447,7 @@ html, body {
 .group09  {
    
     margin-top: 75px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     font-size: 18px;
     height:400px;
     
@@ -467,25 +467,25 @@ html, body {
 
 #heading05 {
     text-align: center;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
 }
 
 #g05txt2 {
     margin-top:40px;
     text-align: center;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
 
 }
 
 #g05button {
     margin-top:40px;
     margin-left:55px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
 }
 
 #ppModal {
     margin-top:100px;
-    font-family: 'Josefin Slab';
+    font-family: 'Crafty Girls';
   
 }
 
@@ -515,7 +515,7 @@ html, body {
 
 .group11 {
     margin-top: 50px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     font-size: 10px;
 }
 
@@ -579,7 +579,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -609,7 +609,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -636,7 +636,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -665,7 +665,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -694,7 +694,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -723,7 +723,7 @@ html, body {
     background-color: #555;
     color: white;
     font-size: 24px;
-    font-family: 'Niconne';
+    font-family: 'Crafty Girls';
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -867,6 +867,7 @@ html, body {
 
 .home {
     margin-left:300px;
+    font-size: 24px;
 }
 
   }
