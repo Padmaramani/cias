@@ -108,18 +108,16 @@ html, body {
 }
 
 #fbimg {
-    width:100%;
+    width:25vw;
+    height:150px;
    
 }
 
 #fbimg-media {
-    width:100%;
+    width:100vw;
+    height:150px;
     
 }
-
-
-
-
 
 
 #text1 {
