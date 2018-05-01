@@ -393,10 +393,7 @@ html, body {
  
 }
 
-.row4 {
-    margin-top:10px;
 
-}
 
 .dispimg {
     width:250px ;
@@ -766,26 +763,11 @@ html, body {
 /* Width at 960px and below */
 @media screen and (max-width: 1050px) {
    
-   
+   #aboutid {
+      margin-top: 100px;
+   }
     
-
     .parallax {
-        display: none;
-    }
-
-    .row1 {
-        display: none;
-    }
-
-    .row2 {
-        display: none;
-    }
-
-    .row3 {
-        display: none;
-    }
-
-    .row4 {
         display: none;
     }
 
@@ -816,36 +798,48 @@ html, body {
         margin-top: 5px;
         width: 100%;
         height:auto;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .btncontainer2 img {
         margin-top: 5px;
         width: 100%;
         height:auto;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .btncontainer3 img {
         margin-top: 5px;
         width: 100%;
         height:auto;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .btncontainer4 img {
         margin-top: 5px;
         width: 100%;
         height:auto;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .btncontainer5 img {
         margin-top: 5px;
         width: 100%;
-        height:auto;
+        height:auto; 
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .btncontainer6 img {
         margin-top: 5px;
         width: 100%;
         height:auto;
+        padding-right: 0px;
+        padding-left: 0px;
     }
   
     
@@ -857,9 +851,7 @@ html, body {
     }
 
 
-.group10 {
-    display : none;
-}
+
 
 
 .parallax-media {
